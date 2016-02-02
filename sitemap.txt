@@ -1,0 +1,7 @@
+authentication/index.html
+content-types/index.html
+index.html
+resources/index.html
+resources/media-entries.html
+resources/root.html
+sitemap.html
