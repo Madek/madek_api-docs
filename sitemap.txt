@@ -1,10 +1,10 @@
-authentication/index.html
 content-types/index.html
-index.html
-resources/index.html
+sitemap.html
+resources/meta-datum.html
+resources/root.html
 resources/media-entries.html
+resources/index.html
 resources/media-entry.html
 resources/meta-data.html
-resources/meta-datum.html
-sitemap.html
-resources/root.html
+authentication/index.html
+index.html
