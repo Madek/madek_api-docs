@@ -4,5 +4,7 @@ index.html
 resources/index.html
 resources/media-entries.html
 resources/media-entry.html
-resources/root.html
+resources/meta-data.html
+resources/meta-datum.html
 sitemap.html
+resources/root.html
