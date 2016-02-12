@@ -10,8 +10,8 @@ resources/meta-data.html
 resources/meta-datum.html
 resources/meta-key.html
 resources/meta-keys.html
+resources/previews.html
 resources/root.html
 resources/vocabularies.html
 resources/vocabulary.html
 sitemap.html
-resources/previews.html
