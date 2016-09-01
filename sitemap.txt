@@ -2,6 +2,8 @@ authentication/index.html
 content-types/index.html
 index.html
 resources/collection.html
+resources/collections.html
+resources/filter-sets.html
 resources/index.html
 resources/media-entries.html
 resources/media-entry.html
