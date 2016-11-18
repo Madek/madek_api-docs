@@ -1,6 +1,8 @@
 authentication/index.html
 content-types/index.html
 index.html
+resources/collection-media-entry-arc.html
+resources/collection-media-entry-arcs.html
 resources/collection.html
 resources/collections.html
 resources/filter-sets.html
