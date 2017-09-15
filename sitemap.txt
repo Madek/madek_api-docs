@@ -6,6 +6,8 @@ resources/collection-media-entry-arcs.html
 resources/collection.html
 resources/collections.html
 resources/filter-sets.html
+resources/group.html
+resources/groups.html
 resources/index.html
 resources/media-entries.html
 resources/media-entry.html
