@@ -16,6 +16,8 @@ resources/meta-data.html
 resources/meta-datum.html
 resources/meta-key.html
 resources/meta-keys.html
+resources/people.html
+resources/person.html
 resources/previews.html
 resources/root.html
 resources/vocabularies.html
