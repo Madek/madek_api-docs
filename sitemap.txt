@@ -6,6 +6,7 @@ resources/collection-media-entry-arcs.html
 resources/collection.html
 resources/collections.html
 resources/filter-sets.html
+resources/group-users.html
 resources/group.html
 resources/groups.html
 resources/index.html
@@ -20,6 +21,8 @@ resources/people.html
 resources/person.html
 resources/previews.html
 resources/root.html
+resources/user.html
+resources/users.html
 resources/vocabularies.html
 resources/vocabulary.html
 sitemap.html
