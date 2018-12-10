@@ -20,6 +20,8 @@ resources/meta-keys.html
 resources/people.html
 resources/person.html
 resources/previews.html
+resources/role.html
+resources/roles.html
 resources/root.html
 resources/user.html
 resources/users.html
