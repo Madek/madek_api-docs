@@ -99,15 +99,22 @@
           </thead>
           <tbody>
             <tr>
-              <td>string ("asc"/"desc")</td>
+              <td>string for sorting by date ("asc"/"desc")</td>
+              <td>no</td>
+            </tr>
+            <tr>
+              <td>string for sorting by (Media Entry) title ("title_asc"/"title_desc")</td>
+              <td>no</td>
+            </tr>
+            <tr>
+              <td>string for sorting by last change ("last_change")</td>
               <td>no</td>
             </tr>
           </tbody>
         </table>
         <p>
-          The value, string "asc" or "desc", orders the Collections according to
-          their creation date either in the ascending or descending manner. The
-          default is the descending one.
+          The value orders the Collections according to the table above, either <strong>asc</strong>ending or <strong></strong>des</strong>cending.
+          If ommited, and <code>collection_id</code> is set, the order saved in the collection display settings is applied (e.g. it will be the same as in the Web-UI).
         </p>
         <h4 id="publicgetmetadataandpreviews">
           <code>public_get_metadata_and_previews</code>
