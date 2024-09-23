@@ -1,1 +1,133 @@
-<!DOCTYPE html> <html lang=en> <head> <meta charset=utf-8> <meta content='IE=edge' http-equiv=X-UA-Compatible> <meta content='width=device-width, initial-scale=1' name=viewport> <title>Madek API Docs</title> <link href="../assets/stylesheets/app-d34d561a.css" rel=stylesheet /> <script src="../assets/javascripts/vendor-064f62ba.js"></script> <script src="../assets/javascripts/app-72be183c.js"></script> </head> <body id=the-madek-api-documentation> <div class=container> <nav class='navbar navbar-inverse'> <div class=container-fluid> <div class=navbar-header> <a href="../" class=navbar-brand>Madek API Documentation </a></div> <ul class='nav navbar-nav'> <li> <a href="../authentication/">Authentication </a></li> <li> <a href="../content-types/">Content Types </a></li> <li> <a href="./">Resources </a></li> <li> <a href="../sitemap.html">Sitemap </a></li> </ul> </div> </nav> <div class=row> <div class=col-md-6> <ol class=breadcrumb> <li> <a href="../">Home </a></li> <li> <a href="./">Resources </a></li> <li> <a href="collections.html">Collections </a></li> </ol> </div> <div class=col-md-6> </div> </div> <div class=content> <h1 id=collections>Collections Index <code>/collections/</code></h1> <h2 id=get><code>GET</code></h2> <p>Returns a paginated <a href="collection.html">Collection</a> collection.</p> <h3 id=query-prameters>Query Prameters</h3> <h4 id=collection_id><code>collection_id</code></h4> <table class="table table-striped"> <thead> <tr> <th>value</th> <th>required</th> </tr> </thead> <tbody> <tr> <td>UUID as a string</td> <td>no</td> </tr> </tbody> </table> <p>The value, a UUID of a <a href="collection.html">Collection</a> (aka. Set), filters those Collections which are "children" of that <a href="collection.html">Collection</a>. See also <a href="https://madek.readthedocs.org/en/latest/architecture/entities/#collection">Collection in the Madek documentation</a>.</p> <h4 id=megetmetadataandpreviews><code>me_get_metadata_and_previews</code></h4> <table class="table table-striped"> <thead> <tr> <th>value</th> <th>required</th> </tr> </thead> <tbody> <tr> <td>boolean (true/false)</td> <td>no</td> </tr> </tbody> </table> <p>The value, boolean true/false, filters those Collections for which the authenticated entity is allowed to view the <a href="meta-data.html">Meta-Data</a> and relations of the <a href="collection.html">Collection</a>.</p> <h4 id=order><code>order</code></h4> <table class="table table-striped"> <thead> <tr> <th>value</th> <th>required</th> </tr> </thead> <tbody> <tr> <td>string ("asc"/"desc")</td> <td>no</td> </tr> </tbody> </table> <p>The value, string "asc" or "desc", orders the Collections according to their creation date either in the ascending or descending manner. The default is the descending one.</p> <h4 id=publicgetmetadataandpreviews><code>public_get_metadata_and_previews</code></h4> <table class="table table-striped"> <thead> <tr> <th>value</th> <th>required</th> </tr> </thead> <tbody> <tr> <td>boolean (true/false)</td> <td>no</td> </tr> </tbody> </table> <p>The value, boolean true/false, filters those Collections for which the public is allowed to view the <a href="meta-data.html">Meta-Data</a> and relations of the <a href="collection.html">Collection</a>.</p> </div> </div> </body> </html>
+<!DOCTYPE html>
+<html lang=en>
+   <head>
+      <meta charset=utf-8>
+      <meta content='IE=edge' http-equiv=X-UA-Compatible>
+      <meta content='width=device-width, initial-scale=1' name=viewport>
+      <title>Madek API Docs</title>
+      <link href="../assets/stylesheets/app-d34d561a.css" rel=stylesheet />
+      <script src="../assets/javascripts/vendor-064f62ba.js"></script> <script src="../assets/javascripts/app-72be183c.js"></script>
+   </head>
+   <body id=the-madek-api-documentation>
+      <div class=container>
+         <nav class='navbar navbar-inverse'>
+            <div class=container-fluid>
+               <div class=navbar-header> <a href="../" class=navbar-brand>Madek API Documentation </a></div>
+               <ul class='nav navbar-nav'>
+                  <li> <a href="../authentication/">Authentication </a></li>
+                  <li> <a href="../content-types/">Content Types </a></li>
+                  <li> <a href="./">Resources </a></li>
+                  <li> <a href="../sitemap.html">Sitemap </a></li>
+               </ul>
+            </div>
+         </nav>
+         <div class=row>
+            <div class=col-md-6>
+               <ol class=breadcrumb>
+                  <li> <a href="../">Home </a></li>
+                  <li> <a href="./">Resources </a></li>
+                  <li> <a href="collections.html">Collections </a></li>
+               </ol>
+            </div>
+            <div class=col-md-6> </div>
+         </div>
+         <div class=content>
+            <h1 id=collections>Collections Index <code>/collections/</code></h1>
+            <h2 id=get><code>GET</code></h2>
+            <p>Returns a paginated <a href="collection.html">Collection</a> collection.</p>
+            <h3 id=query-prameters>Query Prameters</h3>
+            <h4 id=collection_id><code>collection_id</code></h4>
+            <table class="table table-striped">
+               <thead>
+                  <tr>
+                     <th>value</th>
+                     <th>required</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>UUID as a string</td>
+                     <td>no</td>
+                  </tr>
+               </tbody>
+            </table>
+            <p>The value, a UUID of a <a href="collection.html">Collection</a> (aka. Set), filters those Collections which are "children" of that <a href="collection.html">Collection</a>. See also <a href="https://madek.readthedocs.org/en/latest/architecture/entities/#collection">Collection in the Madek documentation</a>.</p>
+
+            <h4 id=megetmetadataandpreviews><code>me_get_metadata_and_previews</code></h4>
+            <table class="table table-striped">
+               <thead>
+                  <tr>
+                     <th>value</th>
+                     <th>required</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>boolean (true/false)</td>
+                     <td>no</td>
+                  </tr>
+               </tbody>
+            </table>
+            <p>The value, boolean true/false, filters those Collections for which the authenticated entity is allowed to view the <a href="meta-data.html">Meta-Data</a> and relations of the <a href="collection.html">Collection</a>.</p>
+
+
+            <!-- me_get_metadata_and_previews_dedicated ----------------------->
+            <h4
+               id=me_get_metadata_and_previews_dedicated><code>me_get_metadata_and_previews_dedicated</code></h4>
+            <table class="table table-striped">
+               <thead>
+                  <tr>
+                     <th>value</th>
+                     <th>required</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>boolean (true)
+                     </td>
+                     <td>no</td>
+                  </tr>
+               </tbody>
+            </table>
+            <p>The
+               value, boolean true, filters those Collections for which for the
+               authenticated entity (user or api_client) exists a dedicated permission.
+            </p>
+
+
+            <h4 id=order><code>order</code></h4>
+            <table class="table table-striped">
+               <thead>
+                  <tr>
+                     <th>value</th>
+                     <th>required</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>string ("asc"/"desc")</td>
+                     <td>no</td>
+                  </tr>
+               </tbody>
+            </table>
+            <p>The value, string "asc" or "desc", orders the Collections according to their creation date either in the ascending or descending manner. The default is the descending one.</p>
+            <h4 id=publicgetmetadataandpreviews><code>public_get_metadata_and_previews</code></h4>
+            <table class="table table-striped">
+               <thead>
+                  <tr>
+                     <th>value</th>
+                     <th>required</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>boolean (true/false)</td>
+                     <td>no</td>
+                  </tr>
+               </tbody>
+            </table>
+            <p>The value, boolean true/false, filters those Collections for which the public is allowed to view the <a href="meta-data.html">Meta-Data</a> and relations of the <a href="collection.html">Collection</a>.</p>
+         </div>
+      </div>
+   </body>
+</html>
